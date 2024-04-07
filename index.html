@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Recipe page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+   
+    body {
+
+      background-color: #f3e5d8;
+      font-family: outfit;
+
+    }
+
+    p {
+
+      margin: 0;
+      color: #6e6b68;
+      font-weight: 400;
+
+    }
+
+    span {
+
+      font-weight: 700;
+
+    }
+
+    li {
+
+      color: #6e6b68;
+      font-weight: 400;
+
+    }
+
+    .box {
+
+      display: flex;
+      justify-content: center;
+      margin-top: 70px;
+
+    }
+
+    .main-container {
+
+      background-color: #fff;
+      width: 620px;
+      height: 1520px;
+      border-radius: 15px;
+
+    }
+
+    .image {
+
+      width: 550px;
+      margin-top: 35px;
+      border-radius: 8px;
+      margin-left: 35px;
+
+    }
+
+    .title-main, .title {
+
+      font-family: Young Serif;
+
+    }
+
+    .title-main {
+
+      font-size: 35px;
+      color: #2b2728;
+      margin: 20px 25px 15px 25px;
+
+    }
+
+    .container-1 {
+
+      margin-left: 10px;
+
+    }
+
+    .txt-container-1 {
+
+      font-size: 14px;
+      width: 550px;
+      margin-left: 25px;
+
+    }
+
+    .title-secundary {
+
+      color: #852e54;
+      font-weight: 600;
+      font-size: 18px;
+
+    }
+
+    .container-2 {
+
+      display: inline-block;
+      background-color: #fff7fc;
+      padding: 20px 295px 10px 35px;
+      margin-left: 35px;
+      margin-top: 25px;
+      border-radius: 15px;
+      margin-bottom: 25px;
+
+    }
+
+   .list-1 {
+
+      line-height: 30px;
+      font-size: 14px;
+      padding-left: 20px;
+
+   }
+
+  .list-1 ::marker {
+
+    color: #852e54;
+    font-size: 10px;
+
+   }
+
+   .title {
+
+    color: #7f4730;
+    font-size: 28px;
+    margin-left: 35px;
+
+   }
+
+   .list-2 {
+
+    margin-left: 15px;
+    line-height: 28px;
+
+   }
+
+   .list-2 ::marker {
+
+    font-size: 10px;
+    color: #7f4730;
+
+   }
+
+   .line {
+
+    width: 550px;
+    border: none;
+    height: 1px;
+    background: #d4d2ce;
+    margin-bottom: 20px;
+    margin-top: 30px;
+
+   }
+
+   ol {
+
+    font-size: 14px;
+    line-height: 20px;
+    margin-left: 14px;
+
+   }
+
+   ol ::marker {
+
+    color: #7f4730;
+    font-weight: 700;
+
+   }
+
+   .one {
+
+    margin-bottom: 10px;
+    width: 520px;
+
+   }
+
+   .table-txt {
+
+    margin-left: 35px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 500;
+
+   }
+
+   table {
+
+    display: inline-block;
+    margin-left: 35px;
+
+   }
+
+   td {
+
+    border-bottom: 1px solid #d4d2ce;
+    width: 245px;
+    height: 40px;
+
+   }
+
+   .row-1, .row-1-bottom {
+
+    color: #6e6b68;
+    padding-left: 25px;
+    font-weight: 500;
+
+   }
+
+   .row-2, .row-2-bottom {
+
+    color: #7f4730;
+    padding-left: 25px;
+    font-weight: 600;
+
+   }
+
+   .row-1-bottom, .row-2-bottom {
+
+    border: none;
+
+   }
+   
+  </style>
+</head>
+<body>
+
+  <div class="box">
+
+    <div class="main-container">
+
+      
+        <img class="image" src="assets/images/image-omelette.jpeg" alt="omelette">
+      
+
+      <div class="container-1">
+
+        <p class="title-main">
+          Simple Omelette Recipe
+        </p>
+
+        <p class="txt-container-1">
+          An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked 
+          to perfection, optionally filled with your choice of cheese, vegetables, or meats.
+        </p>
+
+      </div>
+
+      <div class="container-2">
+
+        <p class="title-secundary">
+          Preparation time
+        </p>
+
+        <ul class="list-1">
+          <li class="li-1"><span>Total</span>: Approximately 10 minutes</li>
+          <li class="li-2"><span>Preparation</span>: 5 minutes</li>
+          <li class="li-3"><span>Cooking</span>: 5 minutes</li>
+        </ul>
+
+      </div>
+
+      <div class="container-3">
+
+        <p class="title">
+          Ingredients
+        </p>
+
+        <ul class="list-2">
+          <li>2-3 large eggs</li>
+          <li>Salt, to taste</li>
+          <li>Pepper, to taste</li>
+          <li>1 tablespoon of butter or oil</li>
+          <li>Optional fillings: cheese, diced vegetables, cooked meats, herbs</li>
+        </ul>
+
+      </div>
+
+      <hr class="line" />
+
+      <div class="container-4">
+
+        <p class="title">
+          Instructions
+        </p>
+
+        <ol>
+          <li class="one"><span>Beat the eggs</span>: In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. 
+          You can add a tablespoon of water or milk for a fluffier texture.</li>
+          <li class="one"><span>Heat the pan</span>: Place a non-stick frying pan over medium heat and add butter or oil.</li>
+          <li class="one"><span></span>Cook the omelette: Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure 
+          the eggs evenly coat the surface.</li>
+          <li class="one"><span>Add fillings (optional)</span>: When the eggs begin to set at the edges but are still slightly runny in the 
+          middle, sprinkle your chosen fillings over one half of the omelette.</li>
+          <li class="one"><span>Fold and serve</span>: As the omelette continues to cook, carefully lift one edge and fold it over the 
+          fillings. Let it cook for another minute, then slide it onto a plate.</li>
+          <li class="one"><span>Enjoy</span>: Serve hot, with additional salt and pepper if needed.</li>
+        </ol>
+
+      </div>
+
+      <hr class="line" />
+
+      <div class="container-5"> 
+        
+        <p class="title">
+          Nutrition
+        </p>
+
+        <p class="table-txt">
+          The table below shows nutritional values per serving without the additional fillings.
+        </p>
+
+        <table>
+
+          <tr>
+            <td class="row-1">Calories</td>
+            <td class="row-2">277kcal</td>
+          </tr>
+          <tr>
+            <td class="row-1">Carbs</td>
+            <td class="row-2">0g</td>
+          </tr>
+          <tr>
+            <td class="row-1">Protein</td>
+            <td class="row-2">20g</td>
+          </tr>
+          <tr>
+            <td class="row-1-bottom">Fat</td>
+            <td class="row-2-bottom">22g</td>
+          </tr>
+
+        </table>
+
+      </div>
+
+    </div>
+
+  </div>
+  
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+
+</body>
+</html>
